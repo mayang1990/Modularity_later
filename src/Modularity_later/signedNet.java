@@ -59,7 +59,7 @@ public class signedNet {
 	}
 
 	/**
-	 * 打印初始模块度增量矩阵
+	 * 打印模块度增量矩阵
 	 */
 	public void printqMatris() {
 		System.out.printf("\nsigned Q:\n");
