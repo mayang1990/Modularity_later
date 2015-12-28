@@ -1,6 +1,7 @@
 package Modularity_later;
 
 import java.io.*;
+
 import jxl.*;
 
 /**
@@ -8,6 +9,7 @@ import jxl.*;
  * @author Mayang
  * 
  */
+
 public class readFileExcel {
 
 	static int[][] matrix = null;
@@ -16,7 +18,8 @@ public class readFileExcel {
 	public readFileExcel() {
 
 		try {
-			Workbook book = Workbook.getWorkbook(new File("10nodesSigned.xls"));
+			Workbook book = Workbook
+					.getWorkbook(new File("28nodesASigned.xls"));
 			// 获得第一个工作表对象
 			Sheet sheet = book.getSheet(0);
 			matrix = new int[sheet.getRows()][sheet.getColumns()];
